@@ -288,6 +288,7 @@ export class DiagramEngine extends CanvasEngine<CanvasEngineListener, DiagramMod
 				}
 			}
 
+			console.log('test publish');
 			// apply
 			this.model.setZoomLevel(params.zoom * 100);
 			this.model.setOffset(params.x, params.y);
